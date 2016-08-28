@@ -19,7 +19,7 @@ class GameViewController: UIViewController {
         
         if let view = self.view as! SKView? {
             
-            let scene = SelectableMenuScene(size: view.frame.size)
+            let scene = SimpleMenuScene(size: view.frame.size)
             // Set the scale mode to scale to fit the window
             scene.scaleMode = .aspectFill
             currentScene = scene
